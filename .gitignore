@@ -1,0 +1,7 @@
+# IntelliJ project files
+.idea
+*.iml
+
+.phpunit.result.cache
+generated
+vendor

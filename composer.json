@@ -1,0 +1,25 @@
+{
+    "name": "popsy/laravel-site-map",
+    "description": "A popsy/site-map wrapper for Laravel",
+    "minimum-stability": "stable",
+    "keywords": ["laravel", "sipemap"],
+    "license": "MIT",
+    "type": "package",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "POPsy",
+            "email": "codepopsy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Popsy\\LaravelSiteMap\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8|^9",
+        "popsy/site-map": "dev-master"
+    }
+}
