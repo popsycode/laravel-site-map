@@ -27,7 +27,7 @@ php artisan vendor:publish --provider="Popsy\LaravelSiteMap\SitemapServiceProvid
 ```
 
 
-##Usage
+## Usage
 
 Use this data format:
 
