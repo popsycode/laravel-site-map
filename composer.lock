@@ -99,16 +99,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.29.0",
+            "version": "v9.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "f2d62ebe609b7c7ff40685ec15db9c48b585910b"
+                "reference": "75c6da8dae581e37943ddc864a8fc6830fae9065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/f2d62ebe609b7c7ff40685ec15db9c48b585910b",
-                "reference": "f2d62ebe609b7c7ff40685ec15db9c48b585910b",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/75c6da8dae581e37943ddc864a8fc6830fae9065",
+                "reference": "75c6da8dae581e37943ddc864a8fc6830fae9065",
                 "shasum": ""
             },
             "require": {
@@ -150,11 +150,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-09-07T13:10:58+00:00"
+            "time": "2022-09-12T13:46:55+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.29.0",
+            "version": "v9.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -200,7 +200,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.29.0",
+            "version": "v9.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -248,7 +248,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.29.0",
+            "version": "v9.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -469,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/popsycode/test-site-map.git",
-                "reference": "70bc08dca09105dbf9a669952e498d66cb477d71"
+                "reference": "f0197dddd5c1af5286d214b7ec66bb80a9e293f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/popsycode/test-site-map/zipball/70bc08dca09105dbf9a669952e498d66cb477d71",
-                "reference": "70bc08dca09105dbf9a669952e498d66cb477d71",
+                "url": "https://api.github.com/repos/popsycode/test-site-map/zipball/f0197dddd5c1af5286d214b7ec66bb80a9e293f2",
+                "reference": "f0197dddd5c1af5286d214b7ec66bb80a9e293f2",
                 "shasum": ""
             },
             "require": {
@@ -490,7 +490,7 @@
             "type": "package",
             "autoload": {
                 "psr-4": {
-                    "SiteMap\\": "src/"
+                    "Popsy\\SiteMap\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -503,12 +503,12 @@
                     "email": "codepopsy@gmail.com"
                 }
             ],
-            "description": "This package generate sitemap in multiple formals (xml, csv, json)",
+            "description": "This package generate sitemap in multiple formats (xml, csv, json)",
             "support": {
                 "issues": "https://github.com/popsycode/test-site-map/issues",
                 "source": "https://github.com/popsycode/test-site-map/tree/master"
             },
-            "time": "2022-09-13T12:22:41+00:00"
+            "time": "2022-09-13T16:30:04+00:00"
         },
         {
             "name": "psr/container",

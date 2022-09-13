@@ -3,10 +3,9 @@
 namespace Popsy\LaravelSiteMap;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
-use Illuminate\Contracts\Filesystem\Filesystem;
-use Illuminate\Contracts\View\Factory as ViewFactory;
-use SiteMap\GeneratorFactory;
-use SiteMap\IGenerator;
+use Popsy\SiteMap\GeneratorFactory;
+use Popsy\SiteMap\IGenerator;
+
 
 class Sitemap
 {

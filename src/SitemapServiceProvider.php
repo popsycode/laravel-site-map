@@ -4,9 +4,9 @@ namespace Popsy\LaravelSiteMap;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use SiteMap\GeneratorFactory;
-use SiteMap\IGenerator;
-use SiteMap\IGeneratorFactory;
+use Popsy\SiteMap\GeneratorFactory;
+use Popsy\SiteMap\IGenerator;
+use Popsy\SiteMap\IGeneratorFactory;
 
 class SitemapServiceProvider extends ServiceProvider
 {
@@ -28,7 +28,6 @@ class SitemapServiceProvider extends ServiceProvider
         $this->app->bind('sitemap.wrapper', function (Application $app) {
             return new Sitemap($app['sitemap'], $app['config']);
         });
-
     }
 
     public function boot()
