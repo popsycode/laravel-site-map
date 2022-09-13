@@ -55,7 +55,7 @@ use Popsy\LaravelSiteMap\Facade\Sitemap;
 
 Sitemap::setType('json')
     ->setData($data)
-    ->setFilePath(base_path('generated/sitemap.json'))
+    ->setFilePath(public_path('sitemap.json'))
     ->generate();
 ```
 
@@ -67,7 +67,7 @@ public function handle(IGenerator $generator)
     $data = [/*....*/];
     $generator
         ->setData($data)
-        ->setFilePath(__DIR__.'/../generated/sitemap.xml')
+        ->setFilePath(public_path('sitemap.xml'))
         ->generate();
 }
 ```
